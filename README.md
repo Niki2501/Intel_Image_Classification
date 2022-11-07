@@ -17,20 +17,15 @@ Google Colab
 Visual Studio
 
 # *Deployment using Streamlit Steps*
-Create folder
-Add saved model to the created folder
-Copy the folder link
-Open it using command prompt using cd command
-Write next command (code .) it will open vs code with specified folder
-Create a virtual environment using terminal or command prompt
-Steps for creating virtual environment
-Using conda : conda create -n envname python=x.x(python version
-Activate using :conda activate venv(virtual environment name)
-Using python for command prompt : python venv venv-name
-Activate using : environment name\Scripts\activate
-Now install all the required library inside venv
-Run the streamlit using streamlit run appname.py
-
+1. Open VS code 
+2. Install all the necessary libraries
+3. Copy the code provided Of streamlit
+4. Change the address of ".h5 file"
+5. Run the code
+6.Copy the streamlit code shown in output(similar to this :streamlit run C:\Users\Niharika\anaconda3\lib\site-packages\ipykernel_launcher.py)
+7. Paste the code in the terminal 
+8. Now the streamlit code will be open in your browser(Local host)
+9. Now upload image and check accuracy :D
 
 
 # *Front-end Output*
